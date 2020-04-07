@@ -1,12 +1,15 @@
 h2 {
     color: gray;
 }
-table {
-    width:100%;
+table, p {
+    width:35%;
 }
 th, td {
     padding: 5px;
     text-align: center;
+}
+td {
+    color: gray;
 }
 table#t01 tr:nth-child(even) {
     background-color: #eee;
@@ -14,12 +17,10 @@ table#t01 tr:nth-child(even) {
 table#t01 tr:nth-child(odd) {
    background-color: #fff;
 }
-
 table#t01 > thead > tr:first-child > th {
     text-align: center;
     color: blue;
 }
-
 table#t01 th {
     color: black;
 }
@@ -27,4 +28,10 @@ table#t01 tr:last-child td {
     text-align: center;
     color: white;
     background-color: red;
+}
+p#p1 {
+    border-bottom: 1px	solid;
+}
+p {
+    color: gray;
 }
